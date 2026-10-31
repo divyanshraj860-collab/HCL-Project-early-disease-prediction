@@ -1,0 +1,9 @@
+column,data_type,description,role,notes
+patient_id,string,Unique identifier assigned to each record,Identifier,Exclude from model training
+age,integer,Age of the individual in years,Feature,Validate permitted range
+bmi,float,Body mass index,Feature,Confirm units and data provenance
+blood_pressure,integer,Blood pressure measurement,Feature,Measurement type and units need confirmation
+glucose,float,Blood glucose measurement,Feature,Confirm measurement units
+cholesterol,integer,Cholesterol measurement,Feature,Confirm measurement units
+smoking,integer,Smoking-status indicator,Feature,Observed values: 0 and 1; confirm encoding
+label,integer,Binary target value,Target,Medical meaning of 0 and 1 is not yet verified
